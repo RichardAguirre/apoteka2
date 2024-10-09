@@ -11,7 +11,7 @@ function Header() {
       <nav>
         <ul>
           <li onClick={() => navigate('/')}>Inicio</li>
-          <li onClick={() => navigate('/medicamentos')}>Medicamentos</li>
+          <li onClick={() => navigate('/drogueria')}>Droguerias</li>
           <li onClick={() => navigate('/contacto')}>Contacto</li>
           <li onClick={() => navigate('/carrito')}>Carrito</li>
         </ul>
