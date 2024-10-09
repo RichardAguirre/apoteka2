@@ -1,16 +1,19 @@
 import React from 'react';
 import './headerstyle.css';
+import { useNavigate } from 'react-router-dom';
 
 function Header() {
+  const navigate = useNavigate();
+
   return (
     <header className="header">
-      <h1>Apoteka React</h1>
+      <h1>Droguería React</h1>
       <nav>
         <ul>
-          <li>Inicio</li>
-          <li>Medicamentos</li>
-          <li>Contacto</li>
-          <li>Carrito</li>
+          <li onClick={() => navigate('/')}>Inicio</li>
+          <li onClick={() => navigate('/medicamentos')}>Medicamentos</li>
+          <li onClick={() => navigate('/contacto')}>Contacto</li>
+          <li onClick={() => navigate('/carrito')}>Carrito</li>
         </ul>
       </nav>
     </header>
