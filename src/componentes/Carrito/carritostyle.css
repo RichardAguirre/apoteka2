@@ -1,0 +1,11 @@
+.carrito {
+    padding: 20px;
+  }
+  .carrito ul {
+    list-style: none;
+    padding: 0;
+  }
+  .carrito li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
