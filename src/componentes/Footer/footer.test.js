@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react';
-import Footer from './archivo';
+import Footer from './footer';
 
 test('Renderiza correctamente el componente Footer', () => {
   const { getByText } = render(<Footer />);
-  expect(getByText(/Todos los derechos reservados/i)).toBeInTheDocument();
+  expect(getByText(/2024 Droguería/i)).toBeInTheDocument();
 });

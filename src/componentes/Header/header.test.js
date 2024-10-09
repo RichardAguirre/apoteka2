@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react';
-import Header from './archivo';
+import Header from './header';
 
 test('Renderiza correctamente el componente Header', () => {
   const { getByText } = render(<Header />);
-  expect(getByText(/Droguería React/i)).toBeInTheDocument();
+  expect(getByText(/Apoteka React/i)).toBeInTheDocument();
 });

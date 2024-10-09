@@ -1,10 +1,10 @@
 import React from 'react';
-import './archivo.css';
+import './headerstyle.css';
 
 function Header() {
   return (
     <header className="header">
-      <h1>Apoteka</h1>
+      <h1>Apoteka React</h1>
       <nav>
         <ul>
           <li>Inicio</li>

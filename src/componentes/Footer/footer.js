@@ -1,10 +1,10 @@
 import React from 'react';
-import './archivo.css';
+import './footerstyle.css';
 
 function Footer() {
   return (
     <footer className="footer">
-      <p>&copy; 2024 apoteka.</p>
+      <p>&copy; 2024 Droguería.</p>
     </footer>
   );
 }
